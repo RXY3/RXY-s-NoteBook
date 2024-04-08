@@ -9,7 +9,7 @@ theme:
     #primary: blue grey
   
     - scheme: default # 日间模式
-      primary: red # 上方的
+      primary: white # 主色
       accent: cyan # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
