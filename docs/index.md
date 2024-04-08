@@ -2,4 +2,4 @@
 Hello, this is RXY's note. Here you can find some notes about programming, math, and other things. Enjoy!
 
 ## Docs
-- [Python](docs/python/python基础.md)
+- [Python](Python/Python基础.md)
