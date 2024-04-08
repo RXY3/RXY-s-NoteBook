@@ -39,7 +39,7 @@ theme:
   icon: 
     repo: fontawesome/brands/github #右上角图标
 edit_uri: edit/main/docs # 编辑按钮跳转的链接 
-repo_url: https://github.com/RXY3/mkdoc-record_of_study#mkdoc-record_of_study # 右上角点击跳转的链接
+repo_url: https://github.com/RXY3/RXY3.github.io # 右上角的链接
 repo_name: RXY3.github.io # 右上角的名字
  
 # [Navigtion]
@@ -86,8 +86,12 @@ nav:
       - Missing_sem/git.md
     - markdown:
       - Missing_sem/markdown.md
-    - Bash:
-      - Missing_sem/Bash.md
+    - 命令行:
+      - Missing_sem/命令行.md
+    - Shell:
+      - Missing_sem/Shell.md
+    - github:
+      - Missing_sem/github.md
       
 
   
@@ -100,9 +104,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/RXY3
-    - icon: fontawesome/brands/bilibili
-      link: https://space.bilibili.com/1407028951?spm_id_from=333.1007.0.0
-    - icon: fontawesome/solid/paper-plane
+    - icon: fontawesome/brands/qq
       link: mailto:<2787064294@qq.com> #联系方式
   
   analytics: 
