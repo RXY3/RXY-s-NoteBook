@@ -31,8 +31,6 @@ sleep 1s
 
 echo "####### 开始推送 #######"
 
-git push
-
-mkdocs gh-deploy
+git push origin main
 
 echo "####### 推送并页面部署成功 #######"
