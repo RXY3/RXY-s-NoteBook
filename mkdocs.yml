@@ -92,6 +92,9 @@ nav:
       - Missing_sem/Shell.md
     - github:
       - Missing_sem/github.md
+    - mkdocs:
+      - Missing_sem/mkdocs.md
+    
       
 
   

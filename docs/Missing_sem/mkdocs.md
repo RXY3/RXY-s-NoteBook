@@ -157,4 +157,7 @@ brew install cairo freetype libffi libjpeg libpng zlib
 brew install pngquant
 ```
 
+## 6. 参考
+- [Mkdocs官方文档](https://www.mkdocs.org/)
+- https://www.youtube.com/watch?v=Q-YA_dA8C20&t=659s
 
