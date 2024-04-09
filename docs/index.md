@@ -10,7 +10,7 @@ Hello, this is RXY's note. Here you can find some notes about programming, and o
 - [C++](CorCpp/C++/C++基础.md)
 - [命令行](Missing_sem/命令行.md)
 - [git](Missing_sem/git.md)
-- [Markdown](Missing_sem/Markdown.md)
+- [Markdown](Missing_sem/markdown.md)
 - [ZJU_CS](ZJU_CS/数字逻辑设计.md)
 
 
