@@ -62,6 +62,8 @@ nav:
     - Python/Python基础.md
     - Python/Python进阶.md
   - Web:
+    - Web开发基础:
+      - Web/Web.lab.md
     - HTML:
       - Web/HTML/HTML基础.md
     - CSS:
