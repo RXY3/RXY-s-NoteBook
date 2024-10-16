@@ -9,7 +9,7 @@ theme:
     #primary: blue grey
   
     - scheme: default # 日间模式
-      primary: white # 主色
+      primary: green # 主色
       accent: cyan # 链接等可交互元件的高亮色
       toggle:
         icon: material/weather-night # 图标
@@ -141,11 +141,22 @@ extra:
  
  
 markdown_extensions:
+  - pymdownx.details # 详情
+  - pymdownx.tasklist # 任务列表
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.emoji
+  - pymdownx.keys
+  - pymdownx.superfences
   - abbr
+  - pymdownx.details
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
   - md_in_html
+  - pymdownx.betterem
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.arithmatex:  # latex支持
       generic: true
   - toc:
