@@ -1,7 +1,8 @@
 # Welcome to RXY's Note
-Hello, this is RXY's note. Here you can find some notes about programming, and other things. Enjoy!  
+部署ing，由于时间有限，目前尚有部分内容未整理完成，敬请谅解。 
 
-部署ing，由于时间有限，目前尚有部分内容未整理完成，敬请谅解。  
+about me:
+浙江大学在读本科生，计算机科学与技术专业，热爱编程，热爱生活。
 
 # Docs
 - [Python](Python/Python基础.md)

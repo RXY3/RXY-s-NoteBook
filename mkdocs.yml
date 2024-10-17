@@ -46,30 +46,6 @@ repo_name: RXY3.github.io # 右上角的名字
 nav: 
   - 主页:
     - index.md
-  - AI:
-    - 机器学习:
-      - AI/机器学习/机器学习基础.md
-    - 深度学习:
-      - AI/深度学习/深度学习基础.md
-  - CorCpp:
-    - C++:
-      - CorCpp/C++/C++基础.md
-      - C++刷题记录:
-        - CorCpp/C++/C++刷题记录/C++刷题记录.md
-    - C语言:
-      - CorCpp/C/C基础.md
-  - Python:
-    - Python/Python基础.md
-    - Python/Python进阶.md
-  - Web:
-    - Web开发基础:
-      - Web/Web.lab.md
-    - HTML:
-      - Web/HTML/HTML基础.md
-    - CSS:
-      - Web/CSS/CSS基础.md
-    - JavaScript:
-      - Web/JavaScript/JavaScript基础.md
   - ZJU_CS:
     - 数据结构基础:
       - ZJU_CS/数据结构基础.md
@@ -83,6 +59,30 @@ nav:
       - ZJU_CS/高级数据结构.md
     - 数据库系统原理:
       - ZJU_CS/数据库系统原理.md
+  - C&Cpp:
+    - C++:
+      - CorCpp/C++/C++基础.md
+    - 刷题记录:
+      - CorCpp/C++/C++刷题记录/C++刷题记录.md
+    - C:
+      - CorCpp/C/C基础.md
+  - AI:
+    - 机器学习:
+      - AI/机器学习/机器学习基础.md
+    - 深度学习:
+      - AI/深度学习/深度学习基础.md
+  - Python:
+    - Python/Python基础.md
+    - Python/Python进阶.md
+  - Web:
+    - Web开发基础:
+      - Web/Web.lab.md
+    - HTML:
+      - Web/HTML/HTML基础.md
+    - CSS:
+      - Web/CSS/CSS基础.md
+    - JavaScript:
+      - Web/JavaScript/JavaScript基础.md
   - Missing_sem:
     - git:
       - Missing_sem/git.md

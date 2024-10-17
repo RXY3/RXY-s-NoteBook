@@ -33,4 +33,11 @@ echo "####### 开始推送 #######"
 
 git push origin main
 
-echo "####### 推送并页面部署成功 #######"
+if [ $? -ne 0 ]; then
+    echo "####### 推送失败 #######"
+    exit 1
+fi
+
+else
+    echo "####### 推送成功 #######"
+fi
