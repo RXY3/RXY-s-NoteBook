@@ -960,24 +960,37 @@ https://leetcode.cn/problems/trapping-rain-water/?envType=study-plan-v2&envId=to
  * obj->put(key,value);
  */
 
+// class Solution {
+// public:
+//     vector<int> inorderTraversal(TreeNode* root) {
+//         vector <int> res;
+//         if(root->left==NULL&&root->right==NULL){
+//             res.push_back(root->val);
+//             return res;
+//         }
+//         if(root->left!=NULL){
+//             vector<int> tmp = inorderTraversal(root->left);
+//             res.insert(res.end(),tmp.begin(),tmp.end());
+//         }
+//         res.push_back(root->val);
+//         if(root->right!=NULL){
+//             vector<int> tmp = inorderTraversal(root->right);
+//             res.insert(res.end(),tmp.begin(),tmp.end());
+//         }
+//         return res;
+        
+//     }
+// };
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        vector <int> res;
-        if(root->left==NULL&&root->right==NULL){
-            res.push_back(root->val);
-            return res;
-        }
-        if(root->left!=NULL){
-            vector<int> tmp = inorderTraversal(root->left);
-            res.insert(res.end(),tmp.begin(),tmp.end());
-        }
-        res.push_back(root->val);
-        if(root->right!=NULL){
-            vector<int> tmp = inorderTraversal(root->right);
-            res.insert(res.end(),tmp.begin(),tmp.end());
-        }
-        return res;
+    vector<vector<int>> levelOrder(TreeNode* root) {
+        vector<vector<int>> res;
+        if(!root)return res;
+        res[0].push_back(root->val);
+        if(!root->left && !root->right)return res;
+        vector<TreeNode*> tmp;
+        if(root->left)tmp.push_back(root->left);
+        if(root->right)tmp.push_back(root->right);
         
     }
 };
