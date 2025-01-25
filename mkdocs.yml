@@ -46,6 +46,17 @@ repo_name: RXY3.github.io # 右上角的名字
 nav: 
   - 主页:
     - index.md
+  - 找工作！:
+    - C++ 八股:
+      - CorCpp/C++八股.md
+    - 算法:
+      - CorCpp/C++/C++刷题记录/C++刷题记录.md
+    - 操作系统八股:
+      - 找工作/OS.md
+    - 项目:
+      - 找工作/DB.md
+      - 找工作/MIT6.824.md
+      - 找工作/MIT6.S06.md
   - ZJU_CS:
     - 数据结构基础:
       - ZJU_CS/数据结构基础.md
@@ -62,8 +73,6 @@ nav:
   - C&Cpp:
     - C++:
       - CorCpp/C++/C++基础.md
-    - 刷题记录:
-      - CorCpp/C++/C++刷题记录/C++刷题记录.md
     - C:
       - CorCpp/C/C基础.md
   - AI:
