@@ -1,7 +1,5 @@
-# CPP LEETCODE 刷题记录总结
+# 力扣刷题记录
 
-## Hop100
-[HOT100](https://leetcode.cn/studyplan/top-100-liked/)
 ### Chapter 1: Hash
 
 #### 1. 两数之和
